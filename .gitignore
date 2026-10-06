@@ -1,0 +1,46 @@
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+!.env.*.example
+secrets/
+credentials/
+*.pem
+*.key
+
+# Embedded build outputs and local tool state
+.pio/
+.idf/
+build/
+dist/
+out/
+managed_components/
+sdkconfig
+sdkconfig.old
+*.elf
+*.bin
+*.hex
+*.map
+*.o
+*.a
+
+# Local dependencies and Python caches
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Editor, OS, and temporary files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+*.tmp
+*.log
+scratch/
+tmp/
